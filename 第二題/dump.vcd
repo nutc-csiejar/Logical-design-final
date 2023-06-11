@@ -1,0 +1,57 @@
+$date
+	Sun Jun 11 00:19:47 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Test $end
+$var wire 4 ! O [3:0] $end
+$var reg 4 " I [3:0] $end
+$scope module uut $end
+$var wire 4 # I [3:0] $end
+$var wire 1 $ x $end
+$var wire 1 % y $end
+$var wire 4 & O [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+0%
+0$
+b0 #
+b0 "
+b0 !
+$end
+#100
+b1111 !
+b1111 &
+1$
+1%
+b1 "
+b1 #
+#200
+b1011 !
+b1011 &
+b101 "
+b101 #
+#300
+b111 !
+b111 &
+b1001 "
+b1001 #
+#400
+b1001 !
+b1001 &
+b111 "
+b111 #
+#500
+b10 !
+b10 &
+b1110 "
+b1110 #
+#600
